@@ -1,0 +1,15 @@
+--2023-09-27 19:33:08--  https://www.amazon.in/Crucial-3200MHz-2933MHz-2666MHz-CT8G4SFRA32A/dp/B08C4Z69LN/?_encoding=UTF8
+Resolving www.amazon.in (www.amazon.in)... 2600:9000:2577:b000:8:b109:e13:73e1, 2600:9000:2577:1e00:8:b109:e13:73e1, 2600:9000:2577:5000:8:b109:e13:73e1, ...
+Connecting to www.amazon.in (www.amazon.in)|2600:9000:2577:b000:8:b109:e13:73e1|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.amazon.in/Crucial-3200MHz-2933MHz-2666MHz-CT8G4SFRA32A/dp/B08C4Z69LN [following]
+--2023-09-27 19:33:08--  https://www.amazon.in/Crucial-3200MHz-2933MHz-2666MHz-CT8G4SFRA32A/dp/B08C4Z69LN
+Reusing existing connection to [www.amazon.in]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?_encoding=UTF8’
+
+index.html?_encoding=UTF8                          [<=>                                                                                                ]       0  --.-KB/s               index.html?_encoding=UTF8                          [ <=>                                                                                               ]  41.69K   172KB/s               index.html?_encoding=UTF8                          [  <=>                                                                                              ] 148.10K   193KB/s               index.html?_encoding=UTF8                          [   <=>                                                                                             ] 507.10K   495KB/s               index.html?_encoding=UTF8                          [    <=>                                                                                            ] 571.10K   447KB/s               index.html?_encoding=UTF8                          [     <=>                                                                                           ] 626.25K   386KB/s               index.html?_encoding=UTF8                          [      <=>                                                                                          ]   1.01M   554KB/s               index.html?_encoding=UTF8                          [       <=>                                                                                         ]   1.12M   609KB/s    in 1.9s    
+
+2023-09-27 19:33:10 (609 KB/s) - ‘index.html?_encoding=UTF8’ saved [1174255]
+
