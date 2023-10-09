@@ -1,0 +1,33 @@
+Product Title
+Price
+EMI
+Product Category
+Availability
+Seller Infomration
+Description
+Customer Reviews  top rated, top critical
+Offers and Discounts
+Frequently Bought Together
+Frequently Viewed Together
+Frequently Bought by Customers Who Bought This
+Return Policy
+Shipping Information
+Product Ratings
+
+
+
+
+Top critical/positive Reviews
+-ratings(integer) 
+
+graph for reviews (positive , negative)
+
+
+
+
+chunks
+1. title, features, table, seller, delivery, Availability
+convert dict to string
+2. Top critical/positive Reviews
+-review body
+

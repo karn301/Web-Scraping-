@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q&A Page</title>
+    <style>
+        
+        .pieContainer {
+      height: 150px;
+      position: relative;
+    }
+    
+    .pieBackground {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+    } 
+    
+    .pie {
+      transition: all 1s;
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      clip: rect(0px, 75px, 150px, 0px);
+    }
+    
+    .hold {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      clip: rect(0px, 150px, 150px, 75px);
+    }
+    
+    #pieSlice1 .pie {
+      background-color: #1b458b;
+      transform:rotate(30deg);
+    }
+    
+    #pieSlice2 {
+      transform: rotate(30deg);
+    }
+    
+    #pieSlice2 .pie {
+      background-color: #0a0;
+      transform: rotate(60deg);
+    }
+    
+    #pieSlice3 {
+      transform: rotate(90deg);
+    }
+    
+    #pieSlice3 .pie {
+      background-color: #f80;
+      transform: rotate(120deg);
+    }
+    
+    #pieSlice4 {
+      transform: rotate(210deg);
+    }
+    
+    #pieSlice4 .pie {
+      background-color: #08f;
+      transform: rotate(10deg);
+    }
+    
+    #pieSlice5 {
+      transform: rotate(220deg);
+    }
+    
+    #pieSlice5 .pie {
+      background-color: #a04;
+      transform: rotate(70deg);
+    }
+    
+    #pieSlice6 {
+      transform: rotate(290deg);
+    }
+    
+    #pieSlice6 .pie {
+      background-color: #ffd700;
+      transform: rotate(70deg);
+    }
+    
+    .innerCircle {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background-color: #444;
+      border-radius: 100%;
+      top: 15px;
+      left: 15px; 
+      box-shadow: 0px 0px 8px rgba(0,0,0,0.5) inset;
+      color: white;
+    }
+    .innerCircle .content {
+      position: absolute;
+      display: block;
+      width: 120px;
+      top: 30px;
+      left: 0;
+      text-align: center;
+      font-size: 14px;
+    }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .qa {
+            margin-bottom: 20px;
+        }
+
+        .question {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .answer {
+            color: #666;
+        }
+
+        #inputContainer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+    </style>
+<script type="text/javascript">
+    
+    </script>
+   </head>
+<body>
+    <div class="container">
+        <h1>Ask a Question</h1>
+
+        <div id="inputContainer">
+            <input type="text" id="questionInput" placeholder="Enter your question">
+        </div>
+
+        <div class="qa" id="qaSection" style="display: block;">
+            <p class="question">Your Question:</p>
+            <p id="questionText" class="answer"></p>
+            <p class="question">Answer:</p>
+            <p id="answerText" class="answer"></p>
+        </div>
+        
+        <div class="pieContainer">
+            <div class="pieBackground"></div>
+            <div id="pieSlice1" class="hold"><div class="pie"></div></div>
+            <div id="pieSlice2" class="hold"><div class="pie"></div></div>
+          
+            <div class="innerCircle"><div class="content"><b>Review<br>comparision</b></div></div>
+          </div>
+    </div>
+</body>
+</html>
