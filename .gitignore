@@ -191,3 +191,4 @@ pyrightconfig.json
 /default
 
 /notebooks/index_files
+/notebooks/notebooks/MBTI personality type prediction .ipynb
